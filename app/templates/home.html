@@ -4,5 +4,10 @@
 
 <p>Welcome to our Brewsite page!</p>
 <p> {{ user }} </p>
+<img src="{{ url_for('static', filename = 'images/lager.jpg') }}" alt="Beer being poured into a glass.">
+
+<img src="{{ url_for('static', filename = 'images/brewery.jpg') }}" alt="Photo  of a brewery.">
+
+<img src="{{ url_for('static', filename = 'images/beers.jpg') }}" alt="A row of four glasses of beer.">
 
 {% endblock main %}
